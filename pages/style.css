@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rubrik {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 2rem;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 2rem;
+    margin-right: 2rem;
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
